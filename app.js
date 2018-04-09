@@ -1,4 +1,4 @@
-var express = require('express'),
+let express = require('express'),
 		cors = require('cors'),
 		path = require('path'),
 		favicon = require('serve-favicon'),
@@ -12,8 +12,6 @@ var express = require('express'),
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
-
-// uncomment after placing your favicon in /public
 
 app.use(favicon(path.join(__dirname + '/public/images/favicon.png')));
 app.use(bodyParser.json());
