@@ -349,3 +349,8 @@ footer img.wordmark {
 footer address {
   font-style: normal;
 }
+@media all and (max-width: 480px) {
+  body {
+    background: #f00;
+  }
+}
