@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { 
   	title: 'Canal West Studio',
-  	subtitle: 'Comprehensive Consulting Services',
+  	subtitle: 'Comprehensive Consulting',
   	location: 'Washington, DC',
   	address: '1101 Connecticut Ave.',
   	suite: 'Suite 450',
