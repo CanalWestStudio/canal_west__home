@@ -1,4 +1,8 @@
-var title = {
-	name: 'Canal West Studios',
-	subtitle: ''
+{
+	"title": "",
+	"section_one" : {
+		"title": "Comprehensive Consulting Services",
+		
+	}
+
 }
