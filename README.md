@@ -16,10 +16,10 @@
 
 `localhost:3002`
 
-### ImportantTechnologies Used
-- cors '^2.8.4'
-- express '4.15.2'
-- pug '2.0.0-beta11'
-- request '^2.85.0
-- serve-favicon '2.4.2'
-- stylus '0.54.5'
+### Technologies Used
+- `cors '^2.8.4'`
+- `express '4.15.2'`
+- `pug '2.0.0-beta11'`
+- `request '^2.85.0`
+- `serve-favicon '2.4.2'`
+- `stylus '0.54.5'`
