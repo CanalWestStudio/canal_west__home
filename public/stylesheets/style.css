@@ -165,6 +165,7 @@ nav ul li {
 }
 .container-collections :hover h3 {
   border-bottom: 4px solid #00b7f1;
+  color: #f16522;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -188,37 +189,6 @@ nav ul li {
 .container-collections li {
   list-style: none;
   margin: 0 5px 0 5px;
-}
-.container-collection {
-  background: rgba(212,211,227,0.1);
-  border: 2px solid #f16522;
-  display: inline-block;
-  margin: 10px;
-  min-width: 290px;
-  padding: 0 0px 10px 0px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.container-collection:hover {
-  background: rgba(212,211,227,0.2);
-  border: 2px solid rgba(0,183,241,0.8);
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.container-collection h3 {
-  padding-bottom: 5px;
-  padding-left: 10px;
-  text-align: left;
-}
-.container-collection p,
-.container-collection ul {
-  padding: 5px 0px 0 10px;
 }
 .container {
   margin: 0 auto;
@@ -267,6 +237,41 @@ nav ul li {
   -ms-transition: all ease-in-out 0.3s;
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
+}
+.container-collection {
+  background: rgba(212,211,227,0.1);
+  border: 2px solid #f16522;
+  display: inline-block;
+  margin: 10px;
+  min-width: 290px;
+  padding: 0 0px 10px 0px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container-collection:hover {
+  background: rgba(212,211,227,0.2);
+  border: 2px solid rgba(0,183,241,0.8);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.container-collection h3 {
+  font-weight: normal;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  text-align: left;
+}
+.container-collection h3:hover {
+  -webkit-text-stroke: 0.5px #f16522;
+}
+.container-collection p,
+.container-collection ul {
+  padding: 5px 0px 0 10px;
 }
 .panel {
   background: rgba(255,255,255,0.65);
