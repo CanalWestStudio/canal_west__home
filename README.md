@@ -2,7 +2,7 @@
 
 # Canal West Studio
 ## Home Page
-### [canalweststudio.com](http://canalweststudio.com)
+### [canalweststudio.com](http://www.canalweststudio.com)
 
 ### Instructions
 
